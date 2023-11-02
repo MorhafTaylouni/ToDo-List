@@ -1,0 +1,85 @@
+body
+{
+    background-image: url("background.png");
+}
+#all_Elements
+{
+    margin: auto;
+    margin-top: 100px;
+    width: 450px;
+    background-color: #faf9ee;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+
+#input_output_Elements
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+h1
+{
+    margin-left:120px;
+}
+
+.deletebtn
+{
+    border-radius: 4px;
+    padding: 7px;
+    color: aliceblue;
+    background-color: rgb(237, 74, 74);
+    border: 1px solid rgb(237, 74, 74);
+}
+
+#add_button
+{
+
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 91, 243);
+    color: blanchedalmond;
+    font-size: 24px;
+    width: 50px;
+    height: max-content;
+    border: none;
+}
+
+#add_button:hover
+{
+    
+    background-color: rgb(127, 68, 245);
+    cursor: pointer;
+}
+
+.deletebtn:hover
+{
+    padding: 5px;
+    background-color: rgb(252, 46, 46);
+    cursor: pointer;
+}
+
+input
+{
+    width: 300px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left:2px ;
+}
+ul
+{
+    min-height: 350px;
+}
+
+li
+{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #EFEBE2;
+    width: 330px;
+    height: 20px;
+    margin: 10px 7px 10px -17px;
+    border-left: 6px solid rgb(141, 91, 243);
+}
